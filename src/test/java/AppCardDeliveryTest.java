@@ -16,7 +16,7 @@ public class AppCardDeliveryTest {
 
     @Test
     void shouldBeSuccessfullyCompleted() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         String city = "Санкт-Петербург";
         int daysToAdd = 7;
         int defaultAddedDays = 3;
